@@ -19,6 +19,8 @@ DEFAULT_LOW_PERSISTENCE_MODE_BRIGHTNESS := 0x00000056
 
 include device/google/wahoo/BoardConfig.mk
 -include vendor/google_devices/muskie/proprietary/BoardConfigVendor.mk
+TARGET_PREBUILT_KERNEL := device/google/walleye/prebuilt/Image.gz-dtb
+TARGET_KERNEL_CONFIG := lineageos_walleye_defconfig
 
 BOARD_BOOTIMAGE_PARTITION_SIZE := 33554432
 
@@ -40,5 +42,3 @@ TARGET_RECOVERY_UI_LIB := \
     librecovery_ui_walleye \
     libfstab
 
-# Allow Lineage config to override others
--include device/google/muskie/walleye/BoardConfigLineage.mk
