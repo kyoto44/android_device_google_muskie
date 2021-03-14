@@ -42,3 +42,6 @@ TARGET_RECOVERY_UI_LIB := \
     librecovery_ui_walleye \
     libfstab
 
+# Shrp
+SHRP_PATH := device/google/walleye
+SHRP_DEVICE_CODE := walleye
