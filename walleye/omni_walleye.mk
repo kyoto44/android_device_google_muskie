@@ -9,7 +9,7 @@ $(call inherit-product, vendor/omni/config/common.mk)
 $(call inherit-product, device/google/muskie/aosp_walleye.mk)
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_NAME := omni_taimen
+PRODUCT_NAME := omni_walleye
 PRODUCT_BRAND := Google
 PRODUCT_MODEL := Pixel 2
 PRODUCT_RESTRICT_VENDOR_FILES := false
